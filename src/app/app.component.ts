@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 
-import { Accessibility } from '@ionic-native/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -13,7 +11,4 @@ import { Accessibility } from '@ionic-native/core';
 export class AppComponent {
   constructor() {}
 
-  ngOnInit() {
-    Accessibility.speak()
-  }
 }

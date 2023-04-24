@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import {Component} from '@angular/core';
+import {IonicModule} from '@ionic/angular';
+
+import {ScreenReader} from '@capacitor/screen-reader';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +10,12 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   imports: [IonicModule],
 })
+
 export class HomePage {
-  constructor() {}
+  constructor() { }
+
+  onClickTeste() {
+    console.log("De fato, feito")
+    ScreenReader.speak({value: 'Teste de som'});
+  }
 }
