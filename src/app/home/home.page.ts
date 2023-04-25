@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {IonicModule} from '@ionic/angular';
+import {IonicModule, NavController} from '@ionic/angular';
 
 import {ScreenReader} from '@capacitor/screen-reader';
 
@@ -12,10 +12,21 @@ import {ScreenReader} from '@capacitor/screen-reader';
 })
 
 export class HomePage {
-  constructor() { }
+  constructor(
+    protected nav: NavController
+  ) {
 
-  onClickTeste() {
-    console.log("De fato, feito")
-    ScreenReader.speak({value: 'Teste de som'});
+  }
+
+  public get Prosseguir() : string {
+    return 'Clique para jogar'
+  }
+  
+  async onClickProsseguir(){
+    ScreenReader.speak({value: 'navegando até a tela de perguntas'})
+    
+    setTimeout(() => {
+      this.nav.navigateForward('perguntas');
+    }, 1000);
   }
 }
