@@ -5,7 +5,7 @@ export class Perguntas {
     }
 }
 
-interface IAlternativa {
+export interface IAlternativa {
     descricao: string,
-    valor: number
+    resposta: boolean
 }

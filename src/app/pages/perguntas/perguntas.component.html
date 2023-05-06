@@ -13,9 +13,11 @@
       </ion-card-header>
     </ion-card>
 
-    <ion-item *ngFor="let alternativa of pergunta.alternativas" button>
-      <ion-label>{{alternativa.descricao}}</ion-label>
+    <ion-item *ngFor="let alternativa of pergunta.alternativas" [color]="getItemColor(alternativa)" [disabled]="itemDesabilitado" button>
+      <ion-label (click)="onClickAlternativa(alternativa)">{{alternativa.descricao}}</ion-label>
+      <ion-icon [name]="getIcon(alternativa)" slot="end"></ion-icon>
     </ion-item>
+
   </ng-container>
 
 </ion-content>

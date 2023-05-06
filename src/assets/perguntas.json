@@ -2,10 +2,10 @@
     {
         "pergunta": "Qual das alternativas abaixo não apresenta um problema ambiental",
         "alternativas": [
-            {"descricao": "Caça de diversos animais silvestres", "valor": 1},
-            {"descricao": "Retirada da vegetação nativa local", "valor": 2},
-            {"descricao": "Infiltração da água da chuva no solo", "valor": 3},
-            {"descricao": "Desflorestamento de matas nativas", "valor": 4}
+            {"descricao": "Caça de diversos animais silvestres", "resposta": false},
+            {"descricao": "Retirada da vegetação nativa local", "resposta": false},
+            {"descricao": "Infiltração da água da chuva no solo", "resposta": true},
+            {"descricao": "Desflorestamento de matas nativas", "resposta": false}
         ]
     }
 ]
