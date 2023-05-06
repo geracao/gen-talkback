@@ -1,8 +1,11 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {IonicModule} from '@ionic/angular';
+import {PerguntasService} from '../services/perguntas.service';
+import {Subscription} from 'rxjs';
+import {Perguntas} from '../interfaces/perguntas';
 
 @Component({
   selector: 'app-perguntas',
@@ -11,41 +14,27 @@ import {IonicModule} from '@ionic/angular';
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class PerguntasComponent implements OnInit {
-  public form: FormGroup<any>;
-  public validationMessages!: {[key: string]: {[key: string]: string;};};
+export class PerguntasComponent implements OnInit, OnDestroy {
+  inscricao: Subscription;;
+  perguntas: Perguntas[];
 
-  perguntas = [
-    {
-      descricao: "Qual das alternativas abaixo não apresenta um problema ambiental",
-      alternativas: [
-        {descricao: "Caça de diversos animais silvestres", valor: 1},
-        {descricao: "Retirada da vegetação nativa local", valor: 2},
-        {descricao: "Infiltração da água da chuva no solo", valor: 3},
-        {descricao: "Desflorestamento de matas nativas", valor: 4},
-      ]
-    }
-  ]
-
-  constructor(
-    protected formBuilder: FormBuilder,
-  ) {
-    this.form = this.formBuilder.group({
-      resposta: ['', Validators.required]
-    });
+  constructor(private service: PerguntasService) {
   }
 
   ngOnInit() {
+    this.inscricao = this.service.obterTodas().subscribe(
+      response => this.carregarPerguntas(response),
+      error => console.log(error)
+    )
   }
 
-  onClickConfirmar() {
-    console.log('Confirmado!');
+  carregarPerguntas(response: Perguntas[]) {
+    this.perguntas = response || [];
   }
 
-
-  protected setValidationMessages(messages: {[key: string]: {[key: string]: string}}): void {
-    this.validationMessages = messages;
+  ngOnDestroy(): void {
+    if (this.inscricao) {
+      this.inscricao.unsubscribe();
+    }
   }
-
-
 }

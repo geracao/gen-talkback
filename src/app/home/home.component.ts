@@ -14,16 +14,10 @@ export class HomeComponent {
 
   constructor(
     protected nav: NavController
-  ) { }
-
-  public get Prosseguir(): string {
-    return 'Clique para jogar'
-  }
+  ) {}
 
   async onClickProsseguir() {
-    setTimeout(() => {
-      this.nav.navigateForward('perguntas');
-    }, 1000);
+    await this.nav.navigateForward('perguntas');
   }
 
 }

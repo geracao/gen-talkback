@@ -6,31 +6,10 @@
     </ion-toolbar>
   </ion-header>
 
-  <!-- <ion-card id="pergunta">
-    <ion-card-header>
-      <ion-card-title>Por que o céu é azul?</ion-card-title>
-    </ion-card-header>
-  </ion-card>
-
-  <ion-card id="respostas">
-    <ion-item button>
-      <ion-label>Item1</ion-label>
-    </ion-item>
-
-    <ion-item button>
-      <ion-label>Item2</ion-label>
-    </ion-item>
-
-    <ion-item button>
-      <ion-label>Item3</ion-label>
-    </ion-item>
-  </ion-card> -->
-
-
   <ng-container *ngFor="let pergunta of perguntas">
     <ion-card id="pergunta">
       <ion-card-header>
-        <ion-card-title>{{pergunta.descricao}}</ion-card-title>
+        <ion-card-title>{{pergunta.pergunta}}</ion-card-title>
       </ion-card-header>
     </ion-card>
 
@@ -39,8 +18,4 @@
     </ion-item>
   </ng-container>
 
-
 </ion-content>
-
-<ion-button id="button-confirmar" size="large" (click)="onClickConfirmar()">Confirmar</ion-button>
-<!-- </form> -->
