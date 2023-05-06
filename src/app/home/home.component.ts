@@ -1,32 +1,29 @@
 import {Component} from '@angular/core';
 import {IonicModule, NavController} from '@ionic/angular';
 
-import {ScreenReader} from '@capacitor/screen-reader';
-
 @Component({
   selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  templateUrl: 'home.component.html',
+  styleUrls: ['home.component.scss'],
   standalone: true,
   imports: [IonicModule],
 })
 
-export class HomePage {
+export class HomeComponent {
+  variavelLinda: string;
+
   constructor(
     protected nav: NavController
-  ) {
+  ) { }
 
-  }
-
-  public get Prosseguir() : string {
+  public get Prosseguir(): string {
     return 'Clique para jogar'
   }
-  
-  async onClickProsseguir(){
-    ScreenReader.speak({value: 'navegando até a tela de perguntas'})
-    
+
+  async onClickProsseguir() {
     setTimeout(() => {
       this.nav.navigateForward('perguntas');
     }, 1000);
   }
+
 }
