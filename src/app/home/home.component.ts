@@ -16,7 +16,7 @@ export class HomeComponent {
     protected nav: NavController
   ) {}
 
-  async onClickProsseguir() {
+  async onClickIniciarQuiz() {
     await this.nav.navigateForward('perguntas');
   }
 

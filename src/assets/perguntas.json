@@ -7,5 +7,14 @@
             {"descricao": "Infiltração da água da chuva no solo", "resposta": true},
             {"descricao": "Desflorestamento de matas nativas", "resposta": false}
         ]
+    },
+    {
+        "pergunta": "Qual balbal alternativas abaixo não apresenta um problema ambiental",
+        "alternativas": [
+            {"descricao": "Caçsada dasde diversos animais silvestres", "resposta": false},
+            {"descricao": "Retasdirada da vegetação nativa local", "resposta": false},
+            {"descricao": "Infiltrasdação da água da chuva no solo", "resposta": true},
+            {"descricao": "Desflorestaasdmento de matas nativas", "resposta": false}
+        ]
     }
 ]

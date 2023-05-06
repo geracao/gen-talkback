@@ -2,18 +2,19 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Pergunta 01</ion-title>
+      <ion-title size="large">Pergunta {{perguntaAtualIndex + 1}}</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ng-container *ngFor="let pergunta of perguntas">
+  <ng-container *ngIf="perguntaAtual">
     <ion-card id="pergunta">
       <ion-card-header>
-        <ion-card-title>{{pergunta.pergunta}}</ion-card-title>
+        <ion-card-title>{{perguntaAtual.pergunta}}</ion-card-title>
       </ion-card-header>
     </ion-card>
 
-    <ion-item *ngFor="let alternativa of pergunta.alternativas" [color]="getItemColor(alternativa)" [disabled]="itemDesabilitado" button>
+    <ion-item *ngFor="let alternativa of perguntaAtual.alternativas" [color]="getItemColor(alternativa)"
+      [disabled]="itensDesabilitados" button>
       <ion-label (click)="onClickAlternativa(alternativa)">{{alternativa.descricao}}</ion-label>
       <ion-icon [name]="getIcon(alternativa)" slot="end"></ion-icon>
     </ion-item>
