@@ -10,7 +10,11 @@ import {IonicModule, NavController} from '@ionic/angular';
 })
 
 export class HomeComponent {
-  variavelLinda: string;
+  darkMode: boolean = false;
+
+  public get switchButtonTheme(): string {
+    return this.darkMode ? 'sunny-outline' : 'moon-outline'
+  }
 
   constructor(
     protected nav: NavController
@@ -20,4 +24,7 @@ export class HomeComponent {
     await this.nav.navigateForward('perguntas');
   }
 
+  onClickMudarTema() {
+    this.darkMode = !this.darkMode
+  }
 }

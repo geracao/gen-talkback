@@ -1,17 +1,11 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>HOME</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
+<ion-content [fullscreen]="true" [class.dark]="darkMode === true" [class.light]="darkMode === false">
+  <div class="header">
+    <ion-icon id="switchButtonTheme" [name]="switchButtonTheme" (click)="onClickMudarTema()"></ion-icon>
+  </div>
   <div id="container">
-    <ion-button size="large" (click)="onClickIniciarQuiz()">Iniciar Quiz</ion-button>
+    <ion-button size="large" shape="round" (click)="onClickIniciarQuiz()">
+      <ion-icon name="leaf-outline"></ion-icon>
+      <strong>Iniciar Quiz</strong>
+    </ion-button>
   </div>
 </ion-content>
