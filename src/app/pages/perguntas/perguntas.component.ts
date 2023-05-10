@@ -2,7 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
-import {IonicModule} from '@ionic/angular';
+import {IonicModule, NavController} from '@ionic/angular';
 import {PerguntasService} from '../../services/perguntas.service';
 import {Subscription} from 'rxjs';
 import {IAlternativa, Perguntas} from '../../interfaces/perguntas';
@@ -24,6 +24,11 @@ export class PerguntasComponent implements OnInit, OnDestroy {
   perguntaAtualIndex: number = 0;
   perguntaAtual: Perguntas;
 
+  exibirPontuacao: boolean = false;
+  canDismiss: boolean = false;
+  respostasCorretas: number = 0;
+  respostasPontuacao: number;
+
   public getItemColor(item): any {
     return this.selectedItem === item ? this.itemColor : null;
   }
@@ -32,7 +37,9 @@ export class PerguntasComponent implements OnInit, OnDestroy {
     return this.selectedItem === item ? this.itemIcon : null;
   }
 
-  constructor(private service: PerguntasService) {
+  constructor(
+    protected nav: NavController,
+    private service: PerguntasService) {
   }
 
   async ngOnInit() {
@@ -54,15 +61,16 @@ export class PerguntasComponent implements OnInit, OnDestroy {
 
   onClickAlternativa(evento: IAlternativa) {
     this.selectedItem = evento;
+    this.itensDesabilitados = true;
 
-    if (!evento.resposta) {
+    if (evento.resposta) {
+      this.itemColor = "success";
+      this.itemIcon = "checkmark-outline";
+      this.respostasCorretas++;
+    } else {
       this.itemColor = "danger";
       this.itemIcon = "close-outline";
-      return
     }
-    this.itemColor = "success";
-    this.itemIcon = "checkmark-outline";
-    this.itensDesabilitados = true;
 
     if (this.perguntaAtualIndex === this.perguntas.length) {
       return;
@@ -74,6 +82,13 @@ export class PerguntasComponent implements OnInit, OnDestroy {
 
   }
 
+  async onClickReiniciar() {
+    this.canDismiss = true;
+    this.exibirPontuacao = false;
+
+    await this.nav.navigateBack('home');
+  }
+
   proximaPergunta() {
     this.resetarEstado();
     this.perguntaAtualIndex++;
@@ -83,7 +98,8 @@ export class PerguntasComponent implements OnInit, OnDestroy {
     }
     else {
       this.itensDesabilitados = true;
-      // TALKBACK-5 :: Adicionar modal de agradecimento final
+      this.exibirPontuacao = true;
+      this.respostasPontuacao = this.respostasCorretas / this.perguntas.length * 100;
     }
 
   }

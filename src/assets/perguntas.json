@@ -9,7 +9,7 @@
         ]
     },
     {
-        "pergunta": "Qual balbal alternativas abaixo não apresenta um problema ambiental",
+        "pergunta": "Qual das alternativas abaixo não apresenta um problema ambiental",
         "alternativas": [
             {"descricao": "Caçsada dasde diversos animais silvestres", "resposta": false},
             {"descricao": "Retasdirada da vegetação nativa local", "resposta": false},

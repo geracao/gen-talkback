@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Observable, from, map} from 'rxjs';
+import {Observable, from} from 'rxjs';
 import {Perguntas} from '../interfaces/perguntas';
 import data from '../../assets/perguntas.json'
 
