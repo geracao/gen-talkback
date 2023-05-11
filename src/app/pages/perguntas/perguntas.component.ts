@@ -6,6 +6,7 @@ import {IonicModule, NavController} from '@ionic/angular';
 import {PerguntasService} from '../../services/perguntas.service';
 import {Subscription} from 'rxjs';
 import {IAlternativa, Perguntas} from '../../interfaces/perguntas';
+import {NavigationExtras, Router} from '@angular/router';
 
 @Component({
   selector: 'app-perguntas',
@@ -24,8 +25,6 @@ export class PerguntasComponent implements OnInit, OnDestroy {
   perguntaAtualIndex: number = 0;
   perguntaAtual: Perguntas;
 
-  exibirPontuacao: boolean = false;
-  canDismiss: boolean = false;
   respostasCorretas: number = 0;
   respostasPontuacao: number;
 
@@ -82,13 +81,6 @@ export class PerguntasComponent implements OnInit, OnDestroy {
 
   }
 
-  async onClickReiniciar() {
-    this.canDismiss = true;
-    this.exibirPontuacao = false;
-
-    await this.nav.navigateBack('home');
-  }
-
   proximaPergunta() {
     this.resetarEstado();
     this.perguntaAtualIndex++;
@@ -98,8 +90,17 @@ export class PerguntasComponent implements OnInit, OnDestroy {
     }
     else {
       this.itensDesabilitados = true;
-      this.exibirPontuacao = true;
       this.respostasPontuacao = this.respostasCorretas / this.perguntas.length * 100;
+
+      const params: NavigationExtras = {
+        state: [
+          {data: 'quantidadePerguntas', value: this.perguntas.length},
+          {data: 'respostasCorretas', value: this.respostasCorretas},
+          {data: 'pontuacaoRespostas', value: this.respostasPontuacao}
+        ]
+      };
+
+      this.nav.navigateForward('perguntas/pontuacao', params)
     }
 
   }
