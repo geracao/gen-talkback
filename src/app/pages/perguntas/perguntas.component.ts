@@ -26,7 +26,7 @@ export class PerguntasComponent implements OnInit, OnDestroy {
   perguntaAtual: Perguntas;
 
   respostasCorretas: number = 0;
-  respostasPontuacao: number;
+  respostasPontuacao: string;
 
   public getItemColor(item): any {
     return this.selectedItem === item ? this.itemColor : null;
@@ -90,7 +90,7 @@ export class PerguntasComponent implements OnInit, OnDestroy {
     }
     else {
       this.itensDesabilitados = true;
-      this.respostasPontuacao = this.respostasCorretas / this.perguntas.length * 100;
+      this.respostasPontuacao = (this.respostasCorretas / this.perguntas.length * 100).toFixed(2);
 
       const params: NavigationExtras = {
         state: [
