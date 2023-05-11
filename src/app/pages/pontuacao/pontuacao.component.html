@@ -5,10 +5,10 @@
         </ion-toolbar>
     </ion-header>
 
-    <ion-card>
+    <ion-card class="ion-text-center">
         <h1>Parabéns!</h1>
-        <h3>Você acertou {{ pontuacaoRespostas }}%</h3>
-        <p>De um total de {{ quantidadePerguntas }} perguntas você respondeu {{ respostasCorretas }} corretamente.</p>
+        <h4>Você acertou {{ pontuacaoRespostas }}% das perguntas</h4>
+        <p>Sendo um total de {{ quantidadePerguntas }} perguntas você respondeu {{ respostasCorretas }} corretamente.</p>
 
         <ion-button expand="block" (click)="onClickReiniciar()">
             <ion-icon slot="start" name="refresh"></ion-icon>
