@@ -1,12 +1,12 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {NavigationExtras} from '@angular/router';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {IonicModule, NavController} from '@ionic/angular';
-import {PerguntasService} from '../../services/perguntas.service';
 import {Subscription} from 'rxjs';
+
 import {IAlternativa, Perguntas} from '../../interfaces/perguntas';
-import {NavigationExtras, Router} from '@angular/router';
+import {PerguntasService} from '../../services/perguntas.service';
 
 @Component({
   selector: 'app-perguntas',

@@ -1,110 +1,496 @@
 [
     {
         "pergunta": "Assinale a alternativa que NÃO apresenta um problema ambiental:",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Caça de diversos animais silvestres", "resposta": false},
-            {"descricao": "Retirada da vegetação nativa local", "resposta": false},
-            {"descricao": "Infiltração da água da chuva no solo", "resposta": true},
-            {"descricao": "Desflorestamento de matas nativas", "resposta": false}
+            {
+                "descricao": "Caça de diversos animais silvestres",
+                "resposta": false
+            },
+            {
+                "descricao": "Retirada da vegetação nativa local",
+                "resposta": false
+            },
+            {
+                "descricao": "Infiltração da água da chuva no solo",
+                "resposta": true
+            },
+            {
+                "descricao": "Desflorestamento de matas nativas",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "Assinale a alternativa que apresenta uma característica do espaço ambiental brasileiro:",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Existência de uma pequena quantidade de espécies vegetais.", "resposta": false},
-            {"descricao": "Diminuto volume de espécies consideradas endêmicas.", "resposta": false},
-            {"descricao": "Presença de grandes espaços naturais bastante homogêneos.", "resposta": false},
-            {"descricao": "Ocorrência de graves impactos ambientais no meio natural.", "resposta": true}
+            {
+                "descricao": "Existência de uma pequena quantidade de espécies vegetais.",
+                "resposta": false
+            },
+            {
+                "descricao": "Diminuto volume de espécies consideradas endêmicas.",
+                "resposta": false
+            },
+            {
+                "descricao": "Presença de grandes espaços naturais bastante homogêneos.",
+                "resposta": false
+            },
+            {
+                "descricao": "Ocorrência de graves impactos ambientais no meio natural.",
+                "resposta": true
+            }
         ]
     },
     {
         "pergunta": "Como é corretamente denominado o sistema ambiental caracterizado pelo conjunto de relações estabelecidas entre uma comunidade e o meio ambiente?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "População", "resposta": false},
-            {"descricao": "Habitat", "resposta": false},
-            {"descricao": "Natureza", "resposta": false},
-            {"descricao": "Ecossistema", "resposta": true}
+            {
+                "descricao": "População",
+                "resposta": false
+            },
+            {
+                "descricao": "Habitat",
+                "resposta": false
+            },
+            {
+                "descricao": "Natureza",
+                "resposta": false
+            },
+            {
+                "descricao": "Ecossistema",
+                "resposta": true
+            }
         ]
     },
     {
         "pergunta": "O ecossistema é um sistema ambiental formado por uma determinada comunidade e suas relações com os diferentes componentes do espaço natural. O que é um habitat natural para um peixe?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Um deserto", "resposta": false},
-            {"descricao": "Uma floresta", "resposta": false},
-            {"descricao": "Um rio", "resposta": true},
-            {"descricao": "Uma cidade", "resposta": false}
+            {
+                "descricao": "Um deserto",
+                "resposta": false
+            },
+            {
+                "descricao": "Uma floresta",
+                "resposta": false
+            },
+            {
+                "descricao": "Um rio",
+                "resposta": true
+            },
+            {
+                "descricao": "Uma cidade",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "Como chamamos o processo pelo qual as plantas produzem alimentos usando a luz solar?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Respiração", "resposta": false},
-            {"descricao": "Fotossíntese", "resposta": true},
-            {"descricao": "Digestão", "resposta": false},
-            {"descricao": "Circulação", "resposta": false}
+            {
+                "descricao": "Respiração",
+                "resposta": false
+            },
+            {
+                "descricao": "Fotossíntese",
+                "resposta": true
+            },
+            {
+                "descricao": "Digestão",
+                "resposta": false
+            },
+            {
+                "descricao": "Circulação",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "Qual destas é uma fonte renovável de energia?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Óleo", "resposta": false},
-            {"descricao": "Carvão", "resposta": false},
-            {"descricao": "Vento", "resposta": true},
-            {"descricao": "Gás natural", "resposta": false}
+            {
+                "descricao": "Óleo",
+                "resposta": false
+            },
+            {
+                "descricao": "Carvão",
+                "resposta": false
+            },
+            {
+                "descricao": "Vento",
+                "resposta": true
+            },
+            {
+                "descricao": "Gás natural",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "Qual destas é uma forma de reduzir o desperdício?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Uso de sacolas e copos descartáveis", "resposta": false},
-            {"descricao": "Jogar fora os itens recicláveis", "resposta": false},
-            {"descricao": "Reciclagem e compostagem", "resposta": true},
-            {"descricao": "Deixar as luzes acesas ao sair de um cômodo", "resposta": false}
+            {
+                "descricao": "Uso de sacolas e copos descartáveis",
+                "resposta": false
+            },
+            {
+                "descricao": "Jogar fora os itens recicláveis",
+                "resposta": false
+            },
+            {
+                "descricao": "Reciclagem e compostagem",
+                "resposta": true
+            },
+            {
+                "descricao": "Deixar as luzes acesas ao sair de um cômodo",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "O que é um habitat?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Um lugar onde os animais vivem e comem", "resposta": true},
-            {"descricao": "Um lugar onde as pessoas trabalham", "resposta": false},
-            {"descricao": "Um lugar onde compramos coisas", "resposta": false},
-            {"descricao": "Um lugar onde praticamos esportes", "resposta": false}
+            {
+                "descricao": "Um lugar onde os animais vivem e comem",
+                "resposta": true
+            },
+            {
+                "descricao": "Um lugar onde as pessoas trabalham",
+                "resposta": false
+            },
+            {
+                "descricao": "Um lugar onde compramos coisas",
+                "resposta": false
+            },
+            {
+                "descricao": "Um lugar onde praticamos esportes",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "Qual é a forma de economizar água?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Deixar a torneira aberta enquanto escova os dentes", "resposta": false},
-            {"descricao": "Tomando banhos longos", "resposta": false},
-            {"descricao": "Consertando torneiras com vazamento", "resposta": true},
-            {"descricao": "Regar o jardim todos os dias", "resposta": false}
+            {
+                "descricao": "Deixar a torneira aberta enquanto escova os dentes",
+                "resposta": false
+            },
+            {
+                "descricao": "Tomando banhos longos",
+                "resposta": false
+            },
+            {
+                "descricao": "Consertando torneiras com vazamento",
+                "resposta": true
+            },
+            {
+                "descricao": "Regar o jardim todos os dias",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "O que é uma maneira de ajudar a vida selvagem?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Cortando árvores", "resposta": false},
-            {"descricao": "Usando pesticidas no jardim", "resposta": false},
-            {"descricao": "Plantando plantas nativas", "resposta": true},
-            {"descricao": "Deixar lixo no chão", "resposta": false}
+            {
+                "descricao": "Cortando árvores",
+                "resposta": false
+            },
+            {
+                "descricao": "Usando pesticidas no jardim",
+                "resposta": false
+            },
+            {
+                "descricao": "Plantando plantas nativas",
+                "resposta": true
+            },
+            {
+                "descricao": "Deixar lixo no chão",
+                "resposta": false
+            }
         ]
     },
     {
         "pergunta": "Qual é a maneira de reduzir a poluição do ar?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Usar carros com mais frequência", "resposta": false},
-            {"descricao": "Apagar as luzes ao sair de um cômodo", "resposta": false},
-            {"descricao": "Usando cortadores de grama movidos a gás", "resposta": false},
-            {"descricao": "Usar transporte público ou caminhar", "resposta": true}
+            {
+                "descricao": "Usar carros com mais frequência",
+                "resposta": false
+            },
+            {
+                "descricao": "Apagar as luzes ao sair de um cômodo",
+                "resposta": false
+            },
+            {
+                "descricao": "Usando cortadores de grama movidos a gás",
+                "resposta": false
+            },
+            {
+                "descricao": "Usar transporte público ou caminhar",
+                "resposta": true
+            }
         ]
     },
     {
         "pergunta": "Qual é a razão mais importante para cuidar do meio ambiente?",
+        "disciplina": "Meio ambiente",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "textoAlternativo": ""
+        },
         "alternativas": [
-            {"descricao": "Parece bonito", "resposta": false},
-            {"descricao": "Dependemos disso para sobreviver", "resposta": true},
-            {"descricao": "É divertido plantar árvores", "resposta": false},
-            {"descricao": "Podemos jogar lixo onde quisermos", "resposta": false}
+            {
+                "descricao": "Parece bonito",
+                "resposta": false
+            },
+            {
+                "descricao": "Dependemos disso para sobreviver",
+                "resposta": true
+            },
+            {
+                "descricao": "É divertido plantar árvores",
+                "resposta": false
+            },
+            {
+                "descricao": "Podemos jogar lixo onde quisermos",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Quem foi o primeiro imperador do Brasil?",
+        "disciplina": "História",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Dom João VI",
+                "resposta": false
+            },
+            {
+                "descricao": "Dom Pedro I",
+                "resposta": true
+            },
+            {
+                "descricao": "Dom Pedro II",
+                "resposta": false
+            },
+            {
+                "descricao": "Dom Manuel I",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual evento marcou o início da República no Brasil?",
+        "disciplina": "História",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Descobrimento do Brasil",
+                "resposta": false
+            },
+            {
+                "descricao": "Abolição da Escravatura",
+                "resposta": false
+            },
+            {
+                "descricao": "Proclamação da República",
+                "resposta": true
+            },
+            {
+                "descricao": "Independência do Brasil",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Quem foi o líder militar que governou o Brasil durante o período conhecido como 'Ditadura Militar'?",
+        "disciplina": "História",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Dom Pedro II",
+                "resposta": false
+            },
+            {
+                "descricao": "Getúlio Vargas",
+                "resposta": true
+            },
+            {
+                "descricao": "Juscelino Kubitschek",
+                "resposta": false
+            },
+            {
+                "descricao": "João Goulart",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o nome da maior floresta tropical do Brasil, que também é chamada de 'pulmão do mundo'?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Floresta Amazônica",
+                "resposta": true
+            },
+            {
+                "descricao": "Mata Atlântica",
+                "resposta": false
+            },
+            {
+                "descricao": "Cerrado",
+                "resposta": false
+            },
+            {
+                "descricao": "Pantanal",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "São Paulo",
+                "resposta": false
+            },
+            {
+                "descricao": "Rio de Janeiro",
+                "resposta": true
+            },
+            {
+                "descricao": "Salvador",
+                "resposta": false
+            },
+            {
+                "descricao": "Belo Horizonte",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Quem foi a princesa que assinou a Lei Áurea, que aboliu a escravidão no Brasil?",
+        "disciplina": "História",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Princesa Isabel",
+                "resposta": true
+            },
+            {
+                "descricao": "Princesa Maria",
+                "resposta": false
+            },
+            {
+                "descricao": "Princesa Amélia",
+                "resposta": false
+            },
+            {
+                "descricao": "Princesa Leopoldina",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual foi o nome do movimento social que lutou pela independência do Brasil de Portugal?",
+        "disciplina": "História",
+        "imagem": {
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Inconfidência Mineira",
+                "resposta": true
+            },
+            {
+                "descricao": "Revolução Farroupilha",
+                "resposta": false
+            },
+            {
+                "descricao": "Guerra dos Farrapos",
+                "resposta": false
+            },
+            {
+                "descricao": "Revolta dos Malês",
+                "resposta": false
+            }
         ]
     }
 ]
