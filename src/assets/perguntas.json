@@ -1,7 +1,7 @@
 [
     {
         "pergunta": "Assinale a alternativa que NÃO apresenta um problema ambiental:",
-        "disciplina": "Meio ambiente",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -22,12 +22,16 @@
             {
                 "descricao": "Desflorestamento de matas nativas",
                 "resposta": false
+            },
+            {
+                "descricao": "Emissão de poluentes atmosféricos",
+                "resposta": false
             }
         ]
     },
     {
         "pergunta": "Assinale a alternativa que apresenta uma característica do espaço ambiental brasileiro:",
-        "disciplina": "Meio ambiente",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -46,14 +50,18 @@
                 "resposta": false
             },
             {
+                "descricao": "Pequena diversidade geográfica do espaço físico local",
+                "resposta": false
+            },
+            {
                 "descricao": "Ocorrência de graves impactos ambientais no meio natural.",
                 "resposta": true
             }
         ]
     },
     {
-        "pergunta": "Como é corretamente denominado o sistema ambiental caracterizado pelo conjunto de relações estabelecidas entre uma comunidade e o meio ambiente?",
-        "disciplina": "Meio ambiente",
+        "pergunta": "Como é corretamente denominado o sistema ambiental caracterizado pelo conjunto de relações estabelecidas entre uma comunidade e o Conhecimentos gerais?",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -72,6 +80,10 @@
                 "resposta": false
             },
             {
+                "descricao": "Comunidade",
+                "resposta": false
+            },
+            {
                 "descricao": "Ecossistema",
                 "resposta": true
             }
@@ -79,7 +91,7 @@
     },
     {
         "pergunta": "O ecossistema é um sistema ambiental formado por uma determinada comunidade e suas relações com os diferentes componentes do espaço natural. O que é um habitat natural para um peixe?",
-        "disciplina": "Meio ambiente",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -105,7 +117,7 @@
     },
     {
         "pergunta": "Como chamamos o processo pelo qual as plantas produzem alimentos usando a luz solar?",
-        "disciplina": "Meio ambiente",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -131,7 +143,7 @@
     },
     {
         "pergunta": "Qual destas é uma fonte renovável de energia?",
-        "disciplina": "Meio ambiente",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -157,7 +169,7 @@
     },
     {
         "pergunta": "Qual destas é uma forma de reduzir o desperdício?",
-        "disciplina": "Meio ambiente",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
             "textoAlternativo": ""
@@ -182,131 +194,171 @@
         ]
     },
     {
-        "pergunta": "O que é um habitat?",
-        "disciplina": "Meio ambiente",
+        "pergunta": "Qual é a forma correta de escrever a frase?",
+        "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
             {
-                "descricao": "Um lugar onde os animais vivem e comem",
+                "descricao": "Eles vão ao parque",
                 "resposta": true
             },
             {
-                "descricao": "Um lugar onde as pessoas trabalham",
+                "descricao": "Eles vão a o parque",
                 "resposta": false
             },
             {
-                "descricao": "Um lugar onde compramos coisas",
-                "resposta": false
-            },
-            {
-                "descricao": "Um lugar onde praticamos esportes",
+                "descricao": "Eles vai ao parque",
                 "resposta": false
             }
         ]
     },
     {
-        "pergunta": "Qual é a forma de economizar água?",
-        "disciplina": "Meio ambiente",
+        "pergunta": "Qual destas palavras está escrita corretamente?",
+        "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
             {
-                "descricao": "Deixar a torneira aberta enquanto escova os dentes",
-                "resposta": false
-            },
-            {
-                "descricao": "Tomando banhos longos",
-                "resposta": false
-            },
-            {
-                "descricao": "Consertando torneiras com vazamento",
+                "descricao": "Caixa",
                 "resposta": true
             },
             {
-                "descricao": "Regar o jardim todos os dias",
+                "descricao": "Caicha",
+                "resposta": false
+            },
+            {
+                "descricao": "Caxa",
                 "resposta": false
             }
         ]
     },
     {
-        "pergunta": "O que é uma maneira de ajudar a vida selvagem?",
-        "disciplina": "Meio ambiente",
+        "pergunta": "Qual é o plural de gato?",
+        "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
             {
-                "descricao": "Cortando árvores",
+                "descricao": "Gata",
                 "resposta": false
             },
             {
-                "descricao": "Usando pesticidas no jardim",
-                "resposta": false
-            },
-            {
-                "descricao": "Plantando plantas nativas",
+                "descricao": "Gatos",
                 "resposta": true
             },
             {
-                "descricao": "Deixar lixo no chão",
+                "descricao": "Gatas",
                 "resposta": false
             }
         ]
     },
     {
-        "pergunta": "Qual é a maneira de reduzir a poluição do ar?",
-        "disciplina": "Meio ambiente",
+        "pergunta": "Qual é a função sintática da palavra Maria na frase: Maria comprou um livro",
+        "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
             {
-                "descricao": "Usar carros com mais frequência",
-                "resposta": false
-            },
-            {
-                "descricao": "Apagar as luzes ao sair de um cômodo",
-                "resposta": false
-            },
-            {
-                "descricao": "Usando cortadores de grama movidos a gás",
-                "resposta": false
-            },
-            {
-                "descricao": "Usar transporte público ou caminhar",
+                "descricao": "Sujeito",
                 "resposta": true
+            },
+            {
+                "descricao": "Objeto Direto",
+                "resposta": false
+            },
+            {
+                "descricao": "Objeto Indireto",
+                "resposta": false
+            },
+            {
+                "descricao": "Adjunto Adverbial",
+                "resposta": false
             }
         ]
     },
     {
-        "pergunta": "Qual é a razão mais importante para cuidar do meio ambiente?",
-        "disciplina": "Meio ambiente",
+        "pergunta": "Qual é a concordância correta do verbo na frase: Um dos alunos não _____ a prova",
+        "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
             {
-                "descricao": "Parece bonito",
+                "descricao": "fizemos",
                 "resposta": false
             },
             {
-                "descricao": "Dependemos disso para sobreviver",
+                "descricao": "fez",
                 "resposta": true
             },
             {
-                "descricao": "É divertido plantar árvores",
+                "descricao": "faz",
                 "resposta": false
             },
             {
-                "descricao": "Podemos jogar lixo onde quisermos",
+                "descricao": "fazem",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é a figura de linguagem presente na frase: O sorriso daquela criança era um raio de sol",
+        "disciplina": "Língua Portuguesa",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Metáfora",
+                "resposta": true
+            },
+            {
+                "descricao": "Metonímia",
+                "resposta": false
+            },
+            {
+                "descricao": "Anáfora",
+                "resposta": false
+            },
+            {
+                "descricao": "Pleonasmo",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é a oração subordinada substantiva na frase: Acredito que ele seja honesto",
+        "disciplina": "Língua Portuguesa",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Acredito",
+                "resposta": false
+            },
+            {
+                "descricao": "que ele seja honesto",
+                "resposta": true
+            },
+            {
+                "descricao": "ele seja honesto",
+                "resposta": false
+            },
+            {
+                "descricao": "seja honesto",
                 "resposta": false
             }
         ]
@@ -315,7 +367,7 @@
         "pergunta": "Quem foi o primeiro imperador do Brasil?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -341,7 +393,7 @@
         "pergunta": "Qual evento marcou o início da República no Brasil?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -364,10 +416,10 @@
         ]
     },
     {
-        "pergunta": "Quem foi o líder militar que governou o Brasil durante o período conhecido como 'Ditadura Militar'?",
+        "pergunta": "Quem foi o líder militar que governou o Brasil durante o período conhecido como Ditadura Militar?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -390,10 +442,10 @@
         ]
     },
     {
-        "pergunta": "Qual é o nome da maior floresta tropical do Brasil, que também é chamada de 'pulmão do mundo'?",
-        "disciplina": "Geografia",
+        "pergunta": "Qual é o nome da maior floresta tropical do Brasil, que também é chamada de pulmão do mundo?",
+        "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -417,9 +469,9 @@
     },
     {
         "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
-        "disciplina": "Geografia",
+        "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -445,7 +497,7 @@
         "pergunta": "Quem foi a princesa que assinou a Lei Áurea, que aboliu a escravidão no Brasil?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -471,7 +523,7 @@
         "pergunta": "Qual foi o nome do movimento social que lutou pela independência do Brasil de Portugal?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "diretorio": "",
             "textoAlternativo": ""
         },
         "alternativas": [
@@ -489,6 +541,188 @@
             },
             {
                 "descricao": "Revolta dos Malês",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o maior oceano do mundo?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Mar Mediterrâneo",
+                "resposta": false
+            },
+            {
+                "descricao": "Oceano Atlântico",
+                "resposta": false
+            },
+            {
+                "descricao": "Oceano Pacífico",
+                "resposta": true
+            },
+            {
+                "descricao": "Oceano Índico",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o maior deserto do mundo?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Deserto do Saara",
+                "resposta": true
+            },
+            {
+                "descricao": "Deserto de Atacama",
+                "resposta": false
+            },
+            {
+                "descricao": "Deserto de Gobi",
+                "resposta": false
+            },
+            {
+                "descricao": "Deserto da Arábia",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o rio mais longo do mundo?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Rio Amazonas",
+                "resposta": false
+            },
+            {
+                "descricao": "Rio Nilo",
+                "resposta": true
+            },
+            {
+                "descricao": "Rio Yangtzé",
+                "resposta": false
+            },
+            {
+                "descricao": "Rio Mississippi",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o maior país do mundo em termos de área?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Rússia",
+                "resposta": true
+            },
+            {
+                "descricao": "China",
+                "resposta": false
+            },
+            {
+                "descricao": "Estados Unidos",
+                "resposta": false
+            },
+            {
+                "descricao": "Brasil",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o país que é conhecido como o país dos cangurus?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Nova Zelândia",
+                "resposta": false
+            },
+            {
+                "descricao": "Austrália",
+                "resposta": true
+            },
+            {
+                "descricao": "Canadá",
+                "resposta": false
+            },
+            {
+                "descricao": "África do Sul",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Qual é o ponto mais alto do mundo?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "Monte Everest",
+                "resposta": true
+            },
+            {
+                "descricao": "Monte Kilimanjaro",
+                "resposta": false
+            },
+            {
+                "descricao": "Montanha do Monte Fuji",
+                "resposta": false
+            },
+            {
+                "descricao": "Pico da Neblina",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "pergunta": "Quantas estrelas tem a bandeira do Brasil?",
+        "disciplina": "Geografia",
+        "imagem": {
+            "diretorio": "",
+            "textoAlternativo": ""
+        },
+        "alternativas": [
+            {
+                "descricao": "15 estrelas",
+                "resposta": false
+            },
+            {
+                "descricao": "26 estrelas",
+                "resposta": false
+            },
+            {
+                "descricao": "27 estrelas",
+                "resposta": true
+            },
+            {
+                "descricao": "8 estrelas",
                 "resposta": false
             }
         ]
