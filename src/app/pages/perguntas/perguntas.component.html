@@ -7,16 +7,17 @@
 
   <ng-container *ngIf="perguntaAtual">
     <ion-card>
-      <ion-img [src]="perguntaAtual.imagem.diretorio" [alt]="perguntaAtual.imagem.textoAlternativo"></ion-img>
       <ion-card-header>
         <ion-card-title>{{perguntaAtual.pergunta}}</ion-card-title>
       </ion-card-header>
     </ion-card>
 
-    <ion-button *ngFor="let alternativa of perguntaAtual.alternativas" [color]="getItemColor(alternativa)"
-      [disabled]="itensDesabilitados" button>
-      <ion-label (click)="onClickAlternativa(alternativa)">{{alternativa.descricao}}</ion-label>
-      <ion-icon [name]="getIcon(alternativa)" slot="end"></ion-icon>
-    </ion-button>
+    <ng-container *ngFor="let alternativa of perguntaAtual.alternativas">
+      <ion-button class="ion-text-wrap" expand="block" (click)="onClickAlternativa(alternativa)"
+        [color]="getItemColor(alternativa)" [disabled]="itensDesabilitados" button>
+        <ion-label>{{alternativa.descricao}}</ion-label>
+        <ion-icon [name]="getIcon(alternativa)" slot="end"></ion-icon>
+      </ion-button>
+    </ng-container>
   </ng-container>
 </ion-content>
