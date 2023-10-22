@@ -1,5 +1,5 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {NavigationExtras} from '@angular/router';
+import {ActivatedRoute, NavigationExtras, Router} from '@angular/router';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {IonicModule, NavController} from '@ionic/angular';
@@ -16,7 +16,7 @@ import {PerguntasService} from '../../services/perguntas.service';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class PerguntasComponent implements OnInit, OnDestroy {
-  inscricao: Subscription;;
+  inscricao: Subscription;
   perguntas: Perguntas[];
   itemColor: string = null;
   itemIcon: string = null;
@@ -24,6 +24,7 @@ export class PerguntasComponent implements OnInit, OnDestroy {
   selectedItem: any;
   perguntaAtualIndex: number = 0;
   perguntaAtual: Perguntas;
+  disciplinaSelecionada: string;
 
   respostasCorretas: number = 0;
   respostasPontuacao: string;
@@ -38,24 +39,25 @@ export class PerguntasComponent implements OnInit, OnDestroy {
 
   constructor(
     protected nav: NavController,
+    protected route: ActivatedRoute,
+    protected router: Router,
     private service: PerguntasService) {
   }
 
   async ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      let navParams = this.router.getCurrentNavigation().extras.state;
+      if (!navParams) return;
+
+      this.disciplinaSelecionada = navParams.disciplina;
+    });
+
     this.inscricao = await this.service.obterTodas().subscribe(
       response => this.carregarPerguntas(response),
       error => console.log(error)
     );
 
     this.mostrarPergunta();
-  }
-
-  mostrarPergunta() {
-    this.perguntaAtual = this.perguntas[this.perguntaAtualIndex];
-  }
-
-  carregarPerguntas(response: Perguntas[]) {
-    this.perguntas = response || [];
   }
 
   onClickAlternativa(evento: IAlternativa) {
@@ -78,34 +80,60 @@ export class PerguntasComponent implements OnInit, OnDestroy {
     setTimeout(() => {
       this.proximaPergunta();
     }, 500);
-
   }
 
-  proximaPergunta() {
+  private mostrarPergunta() {
+    this.perguntaAtual = this.perguntas[this.perguntaAtualIndex];
+  }
+
+  private carregarPerguntas(response: Perguntas[]) {
+    if (this.disciplinaSelecionada) {
+      response = response.filter(o => o.disciplina == this.disciplinaSelecionada);
+    }
+
+    this.embaralharPerguntas(response);
+
+    this.perguntas = response || [];
+  }
+
+  private embaralharPerguntas(perguntas) {
+    let indexAtual = perguntas.length, indexAleatorio;
+
+    while (indexAtual != 0) {
+      indexAleatorio = Math.floor(Math.random() * indexAtual);
+      indexAtual--;
+
+      [perguntas[indexAtual], perguntas[indexAleatorio]] = [perguntas[indexAleatorio], perguntas[indexAtual]];
+    }
+
+    return perguntas;
+  }
+
+  private proximaPergunta() {
     this.resetarEstado();
     this.perguntaAtualIndex++;
 
-    if (this.perguntaAtualIndex < this.perguntas.length) {
-      this.mostrarPergunta();
-    }
-    else {
-      this.itensDesabilitados = true;
-      this.respostasPontuacao = (this.respostasCorretas / this.perguntas.length * 100).toFixed(2);
-
-      const params: NavigationExtras = {
-        state: [
-          {data: 'quantidadePerguntas', value: this.perguntas.length},
-          {data: 'respostasCorretas', value: this.respostasCorretas},
-          {data: 'pontuacaoRespostas', value: this.respostasPontuacao}
-        ]
-      };
-
-      this.nav.navigateForward('perguntas/pontuacao', params)
-    }
-
+    this.perguntaAtualIndex < this.perguntas.length ? this.mostrarPergunta() : this.proximaEtapa();
   }
 
-  resetarEstado() {
+  private proximaEtapa() {
+    this.itensDesabilitados = true;
+    this.respostasPontuacao = (this.respostasCorretas / this.perguntas.length * 100).toFixed(2);
+
+    const params: NavigationExtras = {
+      state: [
+        {data: 'quantidadePerguntas', value: this.perguntas.length},
+        {data: 'respostasCorretas', value: this.respostasCorretas},
+        {data: 'pontuacaoRespostas', value: this.respostasPontuacao},
+        {data: 'disciplina', value: this.disciplinaSelecionada}
+      ]
+    };
+
+    this.resetarEstado();
+    this.nav.navigateForward('pontuacao', params)
+  }
+
+  private resetarEstado() {
     this.itensDesabilitados = false;
     this.itemColor = null;
     this.itemIcon = null;

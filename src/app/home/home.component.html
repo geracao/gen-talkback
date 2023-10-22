@@ -3,9 +3,23 @@
     <ion-icon id="switchButtonTheme" [name]="switchButtonTheme" (click)="onClickMudarTema()"></ion-icon>
   </div>
   <div id="container">
-    <ion-button size="large" shape="round" (click)="onClickIniciarQuiz()">
+    <ion-button expand="block" size="large" shape="round" (click)="onClickIniciarQuiz()">
       <ion-icon name="leaf-outline"></ion-icon>
       <strong>Iniciar Quiz</strong>
+    </ion-button><br>
+
+    <ion-button expand="block" size="large" shape="round" (click)="onClickIniciarQuiz('Conhecimentos gerais')">
+      <strong>Conhecimentos gerais</strong>
     </ion-button>
+    <ion-button expand="block" size="large" shape="round" (click)="onClickIniciarQuiz('Geografia')">
+      <strong>Geografia</strong>
+    </ion-button>
+    <ion-button expand="block" size="large" shape="round" (click)="onClickIniciarQuiz('Língua Portuguesa')">
+      <strong>Língua Portuguesa</strong>
+    </ion-button>
+    <ion-button expand="block" size="large" shape="round" (click)="onClickIniciarQuiz('História')">
+      <strong>História</strong>
+    </ion-button>
+
   </div>
 </ion-content>

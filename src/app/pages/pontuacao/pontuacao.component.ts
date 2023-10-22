@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
+import {NavigationExtras, Router} from '@angular/router';
 import {IonicModule, NavController} from '@ionic/angular';
 
 @Component({
@@ -14,13 +14,39 @@ export class PontuacaoComponent implements OnInit {
     quantidadePerguntas: number;
     respostasCorretas: number;
     pontuacaoRespostas: number;
+    disciplinaSelecionada: string;
 
     constructor(
         protected nav: NavController,
         protected router: Router) { }
 
     ngOnInit() {
-        this.router.getCurrentNavigation().extras.state.map(param => {
+        this.obterParametrosPelaRota();
+    }
+
+    async onClickReiniciar() {
+        let navigationExtras: NavigationExtras = {
+            state: {
+                disciplina: this.disciplinaSelecionada
+            }
+        };
+
+        await this.nav.navigateForward('home');
+        await this.nav.navigateForward('perguntas', navigationExtras)
+    }
+
+    async onClickVoltar() {
+        await this.nav.navigateBack('home');
+    }
+
+    private obterParametrosPelaRota() {
+        let state = this.router.getCurrentNavigation().extras.state;
+        if (!state) return;
+
+        state.map(param => {
+            if (param.data == 'disciplina')
+                this.disciplinaSelecionada = param.value;
+
             switch (param.data) {
                 case 'quantidadePerguntas': this.quantidadePerguntas = param.value
                 case 'respostasCorretas': this.respostasCorretas = param.value
@@ -28,9 +54,4 @@ export class PontuacaoComponent implements OnInit {
             };
         })
     }
-
-    async onClickReiniciar() {
-        await this.nav.navigateBack('home');
-    }
-
 }

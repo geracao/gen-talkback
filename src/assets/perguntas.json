@@ -61,7 +61,7 @@
     },
     {
         "pergunta": "Como é corretamente denominado o sistema ambiental caracterizado pelo conjunto de relações estabelecidas entre uma comunidade e o Conhecimentos gerais?",
-                "disciplina": "Conhecimentos gerais",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
             "textoAlternativo": "Conhecimentos gerais"
@@ -91,7 +91,7 @@
     },
     {
         "pergunta": "O ecossistema é um sistema ambiental formado por uma determinada comunidade e suas relações com os diferentes componentes do espaço natural. O que é um habitat natural para um peixe?",
-                "disciplina": "Conhecimentos gerais",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
             "textoAlternativo": "Conhecimentos gerais"
@@ -117,7 +117,7 @@
     },
     {
         "pergunta": "Como chamamos o processo pelo qual as plantas produzem alimentos usando a luz solar?",
-                "disciplina": "Conhecimentos gerais",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
             "textoAlternativo": "Conhecimentos gerais"
@@ -143,7 +143,7 @@
     },
     {
         "pergunta": "Qual destas é uma fonte renovável de energia?",
-                "disciplina": "Conhecimentos gerais",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
             "textoAlternativo": "Conhecimentos gerais"
@@ -169,7 +169,7 @@
     },
     {
         "pergunta": "Qual destas é uma forma de reduzir o desperdício?",
-                "disciplina": "Conhecimentos gerais",
+        "disciplina": "Conhecimentos gerais",
         "imagem": {
             "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
             "textoAlternativo": "Conhecimentos gerais"

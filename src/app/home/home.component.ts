@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {NavigationExtras} from '@angular/router';
 import {IonicModule, NavController} from '@ionic/angular';
 
 @Component({
@@ -16,12 +17,16 @@ export class HomeComponent {
     return this.darkMode ? 'sunny-outline' : 'moon-outline'
   }
 
-  constructor(
-    protected nav: NavController
-  ) {}
+  constructor(protected nav: NavController) { }
 
-  async onClickIniciarQuiz() {
-    await this.nav.navigateForward('perguntas');
+  async onClickIniciarQuiz(disciplina?: string) {
+    let navigationExtras: NavigationExtras = {
+      state: {
+        disciplina: disciplina
+      }
+    };
+
+    await this.nav.navigateForward(['perguntas'], navigationExtras);
   }
 
   onClickMudarTema() {

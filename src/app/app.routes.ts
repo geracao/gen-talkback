@@ -8,15 +8,10 @@ export const routes: Routes = [
   },
   {
     path: 'perguntas',
-    children: [
-      {
-        path: '',
-        loadComponent: () => import('./pages/perguntas/perguntas.component').then(m => m.PerguntasComponent)
-      },
-      {
-        path: 'pontuacao',
-        loadComponent: () => import('./pages/pontuacao/pontuacao.component').then(m => m.PontuacaoComponent)
-      }
-    ]
+    loadComponent: () => import('./pages/perguntas/perguntas.component').then(m => m.PerguntasComponent)
   },
+  {
+    path: 'pontuacao',
+    loadComponent: () => import('./pages/pontuacao/pontuacao.component').then(m => m.PontuacaoComponent)
+  }
 ];
