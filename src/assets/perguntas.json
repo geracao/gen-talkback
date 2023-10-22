@@ -3,8 +3,8 @@
         "pergunta": "Assinale a alternativa que NÃO apresenta um problema ambiental:",
         "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -33,8 +33,8 @@
         "pergunta": "Assinale a alternativa que apresenta uma característica do espaço ambiental brasileiro:",
         "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -61,10 +61,10 @@
     },
     {
         "pergunta": "Como é corretamente denominado o sistema ambiental caracterizado pelo conjunto de relações estabelecidas entre uma comunidade e o Conhecimentos gerais?",
-        "disciplina": "Conhecimentos gerais",
+                "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -91,10 +91,10 @@
     },
     {
         "pergunta": "O ecossistema é um sistema ambiental formado por uma determinada comunidade e suas relações com os diferentes componentes do espaço natural. O que é um habitat natural para um peixe?",
-        "disciplina": "Conhecimentos gerais",
+                "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -117,10 +117,10 @@
     },
     {
         "pergunta": "Como chamamos o processo pelo qual as plantas produzem alimentos usando a luz solar?",
-        "disciplina": "Conhecimentos gerais",
+                "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -143,10 +143,10 @@
     },
     {
         "pergunta": "Qual destas é uma fonte renovável de energia?",
-        "disciplina": "Conhecimentos gerais",
+                "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -169,10 +169,10 @@
     },
     {
         "pergunta": "Qual destas é uma forma de reduzir o desperdício?",
-        "disciplina": "Conhecimentos gerais",
+                "disciplina": "Conhecimentos gerais",
         "imagem": {
-            "diretorio": "../../../assets/imagens-perguntas/meio-ambiente.jpg",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/conhecimentos-gerais.jpg",
+            "textoAlternativo": "Conhecimentos gerais"
         },
         "alternativas": [
             {
@@ -197,8 +197,8 @@
         "pergunta": "Qual é a forma correta de escrever a frase?",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -219,8 +219,8 @@
         "pergunta": "Qual destas palavras está escrita corretamente?",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -241,8 +241,8 @@
         "pergunta": "Qual é o plural de gato?",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -263,8 +263,8 @@
         "pergunta": "Qual é a função sintática da palavra Maria na frase: Maria comprou um livro",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -289,8 +289,8 @@
         "pergunta": "Qual é a concordância correta do verbo na frase: Um dos alunos não _____ a prova",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -315,8 +315,8 @@
         "pergunta": "Qual é a figura de linguagem presente na frase: O sorriso daquela criança era um raio de sol",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -341,8 +341,8 @@
         "pergunta": "Qual é a oração subordinada substantiva na frase: Acredito que ele seja honesto",
         "disciplina": "Língua Portuguesa",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/lingua-portuguesa.jpg",
+            "textoAlternativo": "Língua Portuguesa"
         },
         "alternativas": [
             {
@@ -367,8 +367,8 @@
         "pergunta": "Quem foi o primeiro imperador do Brasil?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -393,8 +393,8 @@
         "pergunta": "Qual evento marcou o início da República no Brasil?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -419,8 +419,8 @@
         "pergunta": "Quem foi o líder militar que governou o Brasil durante o período conhecido como Ditadura Militar?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -445,8 +445,8 @@
         "pergunta": "Qual é o nome da maior floresta tropical do Brasil, que também é chamada de pulmão do mundo?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -471,8 +471,8 @@
         "pergunta": "Qual foi a capital do Brasil antes de Brasília?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -497,8 +497,8 @@
         "pergunta": "Quem foi a princesa que assinou a Lei Áurea, que aboliu a escravidão no Brasil?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -523,8 +523,8 @@
         "pergunta": "Qual foi o nome do movimento social que lutou pela independência do Brasil de Portugal?",
         "disciplina": "História",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/historia.jpg",
+            "textoAlternativo": "História"
         },
         "alternativas": [
             {
@@ -549,8 +549,8 @@
         "pergunta": "Qual é o maior oceano do mundo?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
@@ -575,8 +575,8 @@
         "pergunta": "Qual é o maior deserto do mundo?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
@@ -601,8 +601,8 @@
         "pergunta": "Qual é o rio mais longo do mundo?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
@@ -627,8 +627,8 @@
         "pergunta": "Qual é o maior país do mundo em termos de área?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
@@ -653,8 +653,8 @@
         "pergunta": "Qual é o país que é conhecido como o país dos cangurus?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
@@ -679,8 +679,8 @@
         "pergunta": "Qual é o ponto mais alto do mundo?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
@@ -705,8 +705,8 @@
         "pergunta": "Quantas estrelas tem a bandeira do Brasil?",
         "disciplina": "Geografia",
         "imagem": {
-            "diretorio": "",
-            "textoAlternativo": ""
+            "diretorio": "../../../assets/imagens-perguntas/geografia.jpg",
+            "textoAlternativo": "Geografia"
         },
         "alternativas": [
             {
