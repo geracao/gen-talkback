@@ -7,6 +7,7 @@
 
   <ng-container *ngIf="perguntaAtual">
     <ion-card>
+      <ion-img [src]="perguntaAtual.imagem.diretorio" [alt]="perguntaAtual.imagem.textoAlternativo"></ion-img>
       <ion-card-header>
         <ion-card-title>{{perguntaAtual.pergunta}}</ion-card-title>
       </ion-card-header>
